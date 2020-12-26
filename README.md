@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# data_integration_from_various_sources
-This project implement a simple mediator in java that will integrate and merge different sources of data in the field of cinema.
-
-
-##
-
-=======
 # Introduction :
 The aim of this project is to design and implement a simple mediator, using different sources
 of data in the field of cinema. The mediator integrates 3 sources of data :
@@ -16,6 +8,11 @@ of data in the field of cinema. The mediator integrates 3 sources of data :
 
 ## Talend to fill the local database : 
 Talend is a software package specialized in data integration. We use it to export the information contained in our csv files to our local database. There will be an SQL table within our database, which is the moviesBudgetsTable, on which we will "upload" the contents of the moviesBudgest.csv file as well as all the genre and distributor information present in the genre csvs we previously generated using jsoup.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/AmineAgrane/data_integration_from_various_sources/blob/main/doc/talend..PNG"> 
+</p>
+
 
 ## Dpedia Requests
 
@@ -59,6 +56,3 @@ This project uses a number of open source library to work properly:
 * [jsoup](https://jsoup.org/download) : jsoup is a Java library for working with real-world HTML. It provides a very convenient API for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.
 
 * [opencsv](http://opencsv.sourceforge.net/) - Opencsv is an easy-to-use CSV (comma-separated values) parser library for Java. It was developed because all the CSV parsers at the time didn’t have commercial-friendly licenses. Java 8 is currently the minimum supported version.
->>>>>>> 940e3cf139f60a5e8b4392658967b9387044aeec
-
-
