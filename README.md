@@ -10,7 +10,7 @@ of data in the field of cinema. The mediator integrates 3 sources of data :
 Talend is a software package specialized in data integration. We use it to export the information contained in our csv files to our local database. There will be an SQL table within our database, which is the moviesBudgetsTable, on which we will "upload" the contents of the moviesBudgest.csv file as well as all the genre and distributor information present in the genre csvs we previously generated using jsoup.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/AmineAgrane/data_integration_from_various_sources/blob/main/doc/talend..PNG"> 
+    <img width="60%" src="https://github.com/AmineAgrane/data_integration_from_various_sources/blob/main/doc/talend..PNG"> 
 </p>
 
 
