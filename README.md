@@ -40,10 +40,16 @@ OMDb API is a RESTful web service that allows you to get information about movie
 The results of the OMDB API queries are returned as XML files, on which we will use XPath queries to extract the information we are interested in. OMDB Api being a REST web service, the requests to retrieve data are GET REQUESTS supported by the HTTP protocol. It remains then to define the url to use in order to perform our GET REQUEST.
 
 
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/AmineAgrane/data_integration_from_various_sources/blob/main/doc/omd..PNG"> 
+</p>
 
 # The Mediator
 The mediator allows us to perform a virtual integration of our data, it takes the request addressed to the global schema that it breaks down into subqueries in order to pass it to the different sources. Then, it will take care of retrieving and merging the different answers in order to build a coherent and homogeneous final result. The architecture of our project is as follows:
 
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/AmineAgrane/data_integration_from_various_sources/blob/main/doc/mediator..PNG"> 
+</p>
 
 ## Libs : 
 
